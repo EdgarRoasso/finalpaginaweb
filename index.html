@@ -10,9 +10,20 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="background: #A770EF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    "
+    />
   </head>
   <body>
-    <h1>Academia ?????</h1>
+    <script src="script.js"></script>
+    <!-- <h1>Academia ?????</h1> -->
+    <div class="enunciado">
+      <img class="enunciado" src="imagenes/fotos/logo 1.jpg" alt="" />
+    </div>
     <!--(nav)navegacion -->
     <nav>
       <!--etiqueta desordenada -->
@@ -23,6 +34,7 @@
         <!-- <li><a href="">Menu4</a></li> -->
       </ul>
     </nav>
+
     <div class="contenido">
       <div class="articulos">
         <div class="secciones">
@@ -34,7 +46,6 @@
               eius ullam exercitationem debitis facere eaque qui cum tenetur
               delectus temporibus unde optio!
             </p>
-            <a href="footer">presione aqui</a>
           </div>
           <div><img src="imagenes/fotos/img2.jpg" alt="" /></div>
         </div>
@@ -47,12 +58,39 @@
               eius ullam exercitationem debitis facere eaque qui cum tenetur
               delectus temporibus unde optio!
             </p>
-            <a href="footer">presione aqui</a>
           </div>
           <div><img src="imagenes/fotos/img3.jpg" alt="" /></div>
         </div>
       </div>
     </div>
+    <div class="validacionDatos">
+      <div>
+        <h5>
+          dejanos tus datos si te interesan nuestros cursos nosotros te
+          llamaremos
+        </h5>
+      </div>
+      <!-- aca comienza validacion de datos -->
+      <form class="datos">
+        <input
+          type="text"
+          name="nomest"
+          id="nomest"
+          placeholder="digite nombre estudiante "
+          size="35"
+        /><br />
+        <input
+          type="text"
+          name="celu"
+          id="celest"
+          placeholder="digite su mail"
+          size="35"
+        /><br />
+
+        <button type="button" onclick="captura()">Enviar</button>
+      </form>
+    </div>
+
     <!--pie de pagina -->
     <footer>
       <a href=""><i class="fa-brands fa-instagram"></i></a>
