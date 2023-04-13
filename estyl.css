@@ -72,12 +72,16 @@ img {
   color: black;
   margin-bottom: 20px;
 }
-h5 {
+h2 {
   padding: 50px;
   margin: 20px;
+  text-shadow: 3px 1px 1px green;
 }
 .datos {
-  padding: 50px;
+  padding: 70px;
+}
+.datos :hover {
+  background-color: rgb(200, 194, 194);
 }
 footer a i {
   padding: 10px;
@@ -85,7 +89,7 @@ footer a i {
   min-height: 10px;
   width: 50px;
   background-color: rgb(85, 233, 85);
-  /* background-color: rgb(112, 109, 109); */
+  background-color: rgb(112, 109, 109);
   margin: 0px 50px 150px 90;
   text-align: center;
   line-height: 20px;
